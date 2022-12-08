@@ -10,7 +10,7 @@ console.log(chooseStations(stations));
 function chooseStations(stations) {
   let result = [];
   for (let station of stations) {
-    if (station[1] >= 20 && (station[2] === 'school' || station[2]==='community centre'))
+    if (station[1] >= 20 && (station[2] === 'school' || station[2] === 'community centre'))
       result.push(station[0]);
   }
   return result;
